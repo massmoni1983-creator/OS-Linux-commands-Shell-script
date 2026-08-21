@@ -341,7 +341,6 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-![Alt text](img/46.png)
 
 cat < urllist.txt
 ```
@@ -358,18 +357,18 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-![Alt text](img/47.png)
+
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-![Alt text](img/48.png)
+
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-![Alt text](img/49.png)
+
 
 mkdir backupdir
  
@@ -379,11 +378,10 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-![Alt text](img/50.png)
+
 
 tar -xvf backup.tar
 ## OUTPUT
-![cd ](img/51.png)
 
 gzip backup.tar
 
