@@ -383,7 +383,7 @@ tar -tvf backup.tar
 
 tar -xvf backup.tar
 ## OUTPUT
-![cd ](img/51.png)
+![cd](img/51.png)
 
 gzip backup.tar
 
@@ -414,7 +414,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
+![Alt text](img/55.png)
 
 cat < scriptest.sh 
 ```bash
@@ -452,24 +452,27 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-
+![Alt text](img/56.png)
  
 ls file1
 ## OUTPUT
+![Alt text](img/57.png)
 
 echo $?
 ## OUTPUT 
+![Alt text](img/58.png)
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+![Alt text](img/59.png)
  
 abcd
  
 echo $?
  ## OUTPUT
-
+![Alt text](img/60.png)
 
  
 # mis-using string comparisons
@@ -508,7 +511,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-
+![Alt text](img/61.png)
 
 # check file ownership
 cat < psswdperm.sh 
