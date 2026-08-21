@@ -216,7 +216,7 @@ egrep l{2} newfile
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-
+![Alt text](img/27.png)
 
 cat > file23
 ```
@@ -234,80 +234,81 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-
+![Alt text](img/28.png)
 
 
 sed -n -e '$p' file23
 ## OUTPUT
-
+![Alt text](img/29.png)
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-
+![Alt text](img/30.png)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-
+![Alt text](img/31.png)
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-
+![Alt text](img/32.png)
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-
+![Alt text](img/33.png)
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-
+![Alt text](img/34.png)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-
+![Alt text](img/35.png)
 
 
 seq 10 
 ## OUTPUT
-
+![Alt text](img/36.png)
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-
+![Alt text](img/37.png)
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-
+![Alt text](img/38.png)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-
+![Alt text](img/39.png)
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-
+![Alt text](img/40.png)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-
+![Alt text](img/41.png)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-
+![Alt text](img/42.png)
 
 
 sed -n '2,4{s/$/*/;p}' file23
-
+## OUTPUT
+![Alt text](img/43.png)
 
 #Sorting File content
 cat > file21
@@ -320,7 +321,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![Alt text](img/44.png)
 
 cat > file22
 ```
@@ -333,7 +334,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![Alt text](img/45.png)
 
 
 #Using tr command
