@@ -511,7 +511,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-![Alt text](img/61.png)
+![cd ](img/61.png)
 
 # check file ownership
 cat < psswdperm.sh 
