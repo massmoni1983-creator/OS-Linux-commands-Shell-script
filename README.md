@@ -585,7 +585,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-
+![Alt text](img/63.png)
 
 
 # using numeric test comparisons
@@ -629,6 +629,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+![Alt text](img/64.png)
 
 # check if a file
 cat > ifnested.sh 
@@ -678,6 +679,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+![Alt text](img/65.png)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -706,7 +708,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-
+![Alt text](img/66.png)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -722,6 +724,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![Alt text](img/67.png)
 
 # using the case command
 cat >casecheck.sh 
@@ -741,7 +744,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+## OUTPUT
+![Alt text](img/68.png)
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -756,8 +761,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
- 
+## OUTPUT 
+![Alt text](img/69.png) 
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -769,8 +775,8 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
- 
+## OUTPUT 
+![Alt text](img/70.png) 
  
 cat forin1.sh 
 ```bash
@@ -783,7 +789,8 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+## OUTPUT
+![Alt text](img/71.png) 
  
 cat forin2.sh 
 ```bash
@@ -796,6 +803,8 @@ done
  ```
  
 $ chmod 755 forin2.sh
+## OUTPUT
+![Alt text](img/72.png)
  
 cat forin2.sh 
 ```bash
@@ -809,7 +818,9 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+## OUTPUT
+![Alt text](img/72.png)
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -820,7 +831,9 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+## OUTPUT
+![Alt text](img/73.png)
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -833,6 +846,7 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![Alt text](img/74.png)
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -854,7 +868,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+![Alt text](img/75.png)
 
 cat forctype.sh 
 ```bash
